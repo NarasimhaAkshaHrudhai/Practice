@@ -6,4 +6,3 @@ RUN addgroup -S student && adduser -S inwk -G student
 USER inwk
 COPY app/welcome.py ./
 CMD ["python3","./welcome.py"]
-
